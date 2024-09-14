@@ -25,3 +25,13 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Ignore .DS_Store files in the current directory and all subdirectories
+.DS_Store
+
+# Ignore .DS_Store files in any directory
+**/.DS_Store
+
+# Optionally, ignore .DS_Store files in parent directories
+../.DS_Store
+../../.DS_Store
